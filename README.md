@@ -12,7 +12,7 @@ This is a small program that utilizes KrakenFlex API as a part of the test for K
 ## Hot to run
 
 - Clone the repository 
-- In the directory of cloned repository, setup virutal environment: 
+- In the directory of the cloned repository, setup the virtual environment: 
 
 ```
 python -m venv krakenflex_venv 
@@ -21,13 +21,13 @@ python -m venv krakenflex_venv
 ```
 pip install -r requirements.txt
 ```
-- Finally run the command: 
+- Finally, run the command: 
 ```
 python main.py
 ```
 ## Testing
 
-There are unit tests in this project. To run tests use the command:
+There are unit tests in this project. To run tests, use the command:
 ```
 python -m unittest test_outages.py
 ```
